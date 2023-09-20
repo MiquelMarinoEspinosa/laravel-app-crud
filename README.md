@@ -25,10 +25,15 @@ php artisan serve --host 0.0.0.0
 docker-php-ext-install pdo pdo_mysql
 
 DB_CONNECTION=mysql
+
 DB_HOST=app.mariadb
+
 DB_PORT=3306
+
 DB_DATABASE=app-crud
+
 DB_USERNAME=root
+
 DB_PASSWORD=toor
 
 
