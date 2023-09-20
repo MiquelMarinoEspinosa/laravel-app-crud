@@ -6,6 +6,10 @@ docker run --name app.laravel -v .:/usr/laravel/laravel-app-crud -p 8000:8000 -w
 
 docker run --detach --network laravel --name app.mariadb --env MARIADB_USER=laravel --env MARIADB_PASSWORD=laravel --env MARIADB_ROOT_PASSWORD=toor -p 3306:3306 mariadb:latest 
 
+mysql -h 127.0.0.1 -P 3306 -u laravel -plaravel
+
+create database `app-crud`;
+
 docker exec -i -t app.laravel bash
 
 https://getcomposer.org/download/
