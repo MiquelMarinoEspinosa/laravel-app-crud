@@ -39,3 +39,5 @@ DB_PASSWORD=toor
 php artisan migrate
 
 php artisan make:migation create_products_table
+
+php artisan migrate
