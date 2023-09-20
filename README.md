@@ -43,3 +43,5 @@ php artisan make:migation create_products_table
 php artisan migrate
 
 php artisan make:model Product
+
+php artisan make:controller ProductController
