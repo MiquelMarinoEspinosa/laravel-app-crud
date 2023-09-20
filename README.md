@@ -11,3 +11,5 @@ apt-get update
 apt-get install zip unzip
 
 php composer.phar --prefer-dist --no-dev create-project laravel/laravel app-crud
+
+php artisan serve --host 0.0.0.0
