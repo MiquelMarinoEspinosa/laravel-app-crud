@@ -36,4 +36,4 @@ DB_USERNAME=root
 
 DB_PASSWORD=toor
 
-
+php artisan migrate
