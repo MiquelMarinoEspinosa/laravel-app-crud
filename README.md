@@ -1,6 +1,6 @@
 docker pull php
 
-docker run --name app.laravel -v .:/usr/laravel-crud -p 80:80 -w='/usr/laravel-crud' -d -i -t php
+docker run --name app.laravel -v .:/usr/laravel -p 80:80 -w='/usr/laravel' -d -i -t php
 
 docker exec -i -t app.laravel bash
 
